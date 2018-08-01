@@ -1,0 +1,45 @@
+{
+  "name": "idcd",
+  "version": "2.0.0-beta",
+  "author": "Charles F. Munat <charles_munat@bnz.co.nz>",
+  "private": true,
+  "homepage": ".",
+  "dependencies": {
+    "@bnz/serrano-web-fonts": "^0.0.8",
+    "babel-polyfill": "^6.26.0",
+    "date-fns": "2.0.0-alpha.9",
+    "ramda": "^0.25.0",
+    "ramda-adjunct": "^2.9.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4",
+    "styled-components": "^3.3.3",
+    "styled-normalize": "^8.0.0"
+  },
+  "devDependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.3.4",
+    "jest-enzyme": "^6.0.2",
+    "jest-styled-components": "^5.0.1"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "!src/constants.js",
+      "!src/index.js",
+      "!src/registerServiceWorker.js",
+      "!src/styles/index.js",
+      "src/**/*.{js,jsx}",
+      "!<rootDir>/node_modules/"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "coverage": "react-scripts test --env=jsdom --coverage",
+    "start": "react-scripts start",
+    "test": "react-scripts test --env=jsdom"
+  }
+}

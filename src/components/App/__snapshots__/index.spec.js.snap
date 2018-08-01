@@ -1,0 +1,848 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components:App renders <App/> correctly after FINI 1`] = `
+<React.Fragment>
+  <Message
+    message={
+      <Unknown>
+        <StyledHighlight>
+          Show's over, folks!
+        </StyledHighlight>
+        <StyledLocation>
+          Gumbles has left the building.
+        </StyledLocation>
+      </Unknown>
+    }
+  />
+  <Breakdown
+    hrs="00"
+    mins="00"
+    secs="00"
+  />
+</React.Fragment>
+`;
+
+exports[`components:App renders <App/> correctly days before the event starts 1`] = `
+<React.Fragment>
+  <Message
+    message={
+      <Unknown>
+        <Unknown>
+          Less than
+           
+          <StyledHighlight>
+            6 days
+          </StyledHighlight>
+           
+          to
+           
+          <StyledHighlight>
+            Innovation Day!
+          </StyledHighlight>
+        </Unknown>
+        <StyledLocation>
+          Pastries at 7:45 AM on Coop levels 1, 9, and 14
+        </StyledLocation>
+        <p>
+          Are you ready?
+        </p>
+      </Unknown>
+    }
+  />
+  <Breakdown
+    days={5}
+    hrs="00"
+    mins="00"
+    secs="00"
+  />
+</React.Fragment>
+`;
+
+exports[`components:App renders <App/> correctly during DRINKS 1`] = `
+<React.Fragment>
+  <Message
+    message={
+      <Unknown>
+        <p>
+          <StyledHighlight>
+            The Wrap Party
+          </StyledHighlight>
+           is happening
+           
+          <StyledHighlight>
+            NOW!
+          </StyledHighlight>
+        </p>
+        <StyledLocation>
+          4:30-8 PM, Te Aro Room, Mac's on the Waterfront
+        </StyledLocation>
+      </Unknown>
+    }
+  />
+  <Breakdown
+    days={0}
+    hrs="03"
+    mins="25"
+    secs="00"
+  />
+</React.Fragment>
+`;
+
+exports[`components:App renders <App/> correctly during GO_TO_BEEHIVE 1`] = `
+<React.Fragment>
+  <Message
+    message={
+      <Unknown>
+        <Unknown>
+          Less than
+           
+          <StyledHighlight>
+            26 minutes
+          </StyledHighlight>
+           
+          to
+           
+          <StyledHighlight>
+            Show & Tell
+          </StyledHighlight>
+        </Unknown>
+        <StyledLocation>
+          9 AM at the Beehive Banquet Hall
+        </StyledLocation>
+        <Now>
+          Make way to the Beehive!
+        </Now>
+      </Unknown>
+    }
+  />
+  <Breakdown
+    days={0}
+    hrs="00"
+    mins="25"
+    secs="00"
+  />
+</React.Fragment>
+`;
+
+exports[`components:App renders <App/> correctly during ID_BREAKFAST 1`] = `
+<React.Fragment>
+  <Message
+    message={
+      <Unknown>
+        <Unknown>
+          Less than
+           
+          <StyledHighlight>
+            26 minutes
+          </StyledHighlight>
+           
+          to
+           
+          <StyledHighlight>
+            breakfast ends
+          </StyledHighlight>
+        </Unknown>
+        <StyledLocation>
+          Come to Coop levels 1, 9, or 14
+        </StyledLocation>
+        <Now>
+          Pastries and fruit!
+        </Now>
+        <StyledSubTimer>
+          <StyledHighlight>
+            Code Cutoff in
+             
+            <Breakdown
+              days={0}
+              hrs="03"
+              mins="25"
+              secs="00"
+              unstyled={true}
+            />
+          </StyledHighlight>
+        </StyledSubTimer>
+      </Unknown>
+    }
+  />
+  <Breakdown
+    days={0}
+    hrs="00"
+    mins="25"
+    secs="00"
+  />
+</React.Fragment>
+`;
+
+exports[`components:App renders <App/> correctly during ID_DINNER 1`] = `
+<React.Fragment>
+  <Message
+    message={
+      <Unknown>
+        <Unknown>
+          Less than
+           
+          <StyledHighlight>
+            26 minutes
+          </StyledHighlight>
+           
+          to
+           
+          <StyledHighlight>
+            dinner's over
+          </StyledHighlight>
+        </Unknown>
+        <StyledLocation>
+          Come to the Coop House Atria Café
+        </StyledLocation>
+        <Now>
+          The Big Digital Dinner!
+        </Now>
+        <StyledSubTimer>
+          <StyledHighlight>
+            Code Cutoff in
+             
+            <Breakdown
+              days={0}
+              hrs="16"
+              mins="25"
+              secs="00"
+              unstyled={true}
+            />
+          </StyledHighlight>
+        </StyledSubTimer>
+      </Unknown>
+    }
+  />
+  <Breakdown
+    days={0}
+    hrs="00"
+    mins="25"
+    secs="00"
+  />
+</React.Fragment>
+`;
+
+exports[`components:App renders <App/> correctly during ID_HOT_CHOCOLATE 1`] = `
+<React.Fragment>
+  <Message
+    message={
+      <Unknown>
+        <Unknown>
+          Less than
+           
+          <StyledHighlight>
+            8 hours
+          </StyledHighlight>
+           
+          to
+           
+          <StyledHighlight>
+            Breakfast
+          </StyledHighlight>
+        </Unknown>
+        <StyledLocation>
+          Pastries at 7:30 AM on Coop levels 1, 9, and 14
+        </StyledLocation>
+        <Now>
+          Midnight hot chocolate in LG.P1.20
+        </Now>
+        <StyledSubTimer>
+          <StyledHighlight>
+            Code Cutoff in
+             
+            <Breakdown
+              days={0}
+              hrs="10"
+              mins="55"
+              secs="00"
+              unstyled={true}
+            />
+          </StyledHighlight>
+        </StyledSubTimer>
+      </Unknown>
+    }
+  />
+  <Breakdown
+    days={0}
+    hrs="00"
+    mins="25"
+    secs="00"
+  />
+</React.Fragment>
+`;
+
+exports[`components:App renders <App/> correctly during ID_LUNCH 1`] = `
+<React.Fragment>
+  <Message
+    message={
+      <Unknown>
+        <Unknown>
+          Less than
+           
+          <StyledHighlight>
+            26 minutes
+          </StyledHighlight>
+           
+          to
+           
+          <StyledHighlight>
+            grab lunch
+          </StyledHighlight>
+        </Unknown>
+        <StyledLocation>
+          Coop levels 1, 9, and 14
+        </StyledLocation>
+        <Now>
+          Pick up your Eat My Lunch!
+        </Now>
+        <StyledSubTimer>
+          <StyledHighlight>
+            Code Cutoff in
+             
+            <Breakdown
+              days={0}
+              hrs="22"
+              mins="25"
+              secs="00"
+              unstyled={true}
+            />
+          </StyledHighlight>
+        </StyledSubTimer>
+      </Unknown>
+    }
+  />
+  <Breakdown
+    days={0}
+    hrs="00"
+    mins="25"
+    secs="00"
+  />
+</React.Fragment>
+`;
+
+exports[`components:App renders <App/> correctly during JUDGING 1`] = `
+<React.Fragment>
+  <Message
+    message={
+      <Unknown>
+        <Unknown>
+          Less than
+           
+          <StyledHighlight>
+            26 minutes
+          </StyledHighlight>
+           
+          to
+           
+          <StyledHighlight>
+            Prizes!
+          </StyledHighlight>
+        </Unknown>
+        <StyledLocation>
+          4 PM, Te Aro Room, Mac's on the Waterfront
+        </StyledLocation>
+        <Now>
+          Take a break while the judges deliberate!
+        </Now>
+      </Unknown>
+    }
+  />
+  <Breakdown
+    days={0}
+    hrs="00"
+    mins="25"
+    secs="00"
+  />
+</React.Fragment>
+`;
+
+exports[`components:App renders <App/> correctly during LUNCH_WITH_TEAM 1`] = `
+<React.Fragment>
+  <Message
+    message={
+      <Unknown>
+        <Unknown>
+          Less than
+           
+          <StyledHighlight>
+            86 minutes
+          </StyledHighlight>
+           
+          to
+           
+          <StyledHighlight>
+            the Trade Fair!
+          </StyledHighlight>
+        </Unknown>
+        <StyledLocation>
+          1:30 PM, Te Aro Room, Mac's on the Waterfront
+        </StyledLocation>
+        <StyledLocation>
+          NOTE: Macs Brewery is open for project set up
+        </StyledLocation>
+        <Now>
+          <StyledHighlight>
+            Take your team to lunch!
+          </StyledHighlight>
+        </Now>
+      </Unknown>
+    }
+  />
+  <Breakdown
+    days={0}
+    hrs="01"
+    mins="25"
+    secs="00"
+  />
+</React.Fragment>
+`;
+
+exports[`components:App renders <App/> correctly during PASTRIES 1`] = `
+<React.Fragment>
+  <Message
+    message={
+      <Unknown>
+        <Unknown>
+          Less than
+           
+          <StyledHighlight>
+            41 minutes
+          </StyledHighlight>
+           
+          to
+           
+          <StyledHighlight>
+            head to the Beehive
+          </StyledHighlight>
+        </Unknown>
+        <StyledLocation>
+          At 8:30 AM make way to the Beehive Banquet Hall
+        </StyledLocation>
+        <Now>
+          Pastries on Coop levels 1, 9, and 14
+        </Now>
+      </Unknown>
+    }
+  />
+  <Breakdown
+    days={0}
+    hrs="00"
+    mins="40"
+    secs="00"
+  />
+</React.Fragment>
+`;
+
+exports[`components:App renders <App/> correctly during PRIZES 1`] = `
+<React.Fragment>
+  <Message
+    message={
+      <Unknown>
+        <Unknown>
+          Less than
+           
+          <StyledHighlight>
+            26 minutes
+          </StyledHighlight>
+           
+          to
+           
+          <StyledHighlight>
+            the Wrap Party!
+          </StyledHighlight>
+        </Unknown>
+        <StyledLocation>
+          4:30 PM, Te Aro Room, Mac's on the Waterfront
+        </StyledLocation>
+        <Now>
+          Prizes at Mac's on the Waterfront!
+        </Now>
+      </Unknown>
+    }
+  />
+  <Breakdown
+    days={0}
+    hrs="00"
+    mins="25"
+    secs="00"
+  />
+</React.Fragment>
+`;
+
+exports[`components:App renders <App/> correctly during SHOW_AND_TELL 1`] = `
+<React.Fragment>
+  <Message
+    message={
+      <Unknown>
+        <Unknown>
+          Less than
+           
+          <StyledHighlight>
+            2 hours
+          </StyledHighlight>
+           
+          to
+           
+          <StyledHighlight>
+            Innovation Day
+          </StyledHighlight>
+        </Unknown>
+        <StyledLocation>
+          11 AM at the Coop Building
+        </StyledLocation>
+        <Now>
+          Show & Tell at the Beehive Banquet Hall
+        </Now>
+      </Unknown>
+    }
+  />
+  <Breakdown
+    days={0}
+    hrs="01"
+    mins="55"
+    secs="00"
+  />
+</React.Fragment>
+`;
+
+exports[`components:App renders <App/> correctly during TRADE_FAIR 1`] = `
+<React.Fragment>
+  <Message
+    message={
+      <Unknown>
+        <Unknown>
+          Less than
+           
+          <StyledHighlight>
+            2 hours
+          </StyledHighlight>
+           
+          to
+           
+          <StyledHighlight>
+            the Judging
+          </StyledHighlight>
+        </Unknown>
+        <StyledLocation>
+          3:30 PM, Te Aro Room, Mac's on the Waterfront
+        </StyledLocation>
+        <Now>
+          Trade Fair at Mac's (Waterfront)
+        </Now>
+      </Unknown>
+    }
+  />
+  <Breakdown
+    days={0}
+    hrs="01"
+    mins="55"
+    secs="00"
+  />
+</React.Fragment>
+`;
+
+exports[`components:App renders <App/> correctly hours before the event starts 1`] = `
+<React.Fragment>
+  <Message
+    message={
+      <Unknown>
+        <Unknown>
+          Less than
+           
+          <StyledHighlight>
+            6 hours
+          </StyledHighlight>
+           
+          to
+           
+          <StyledHighlight>
+            Innovation Day!
+          </StyledHighlight>
+        </Unknown>
+        <StyledLocation>
+          Pastries at 7:45 AM on Coop levels 1, 9, and 14
+        </StyledLocation>
+        <p>
+          Are you ready?
+        </p>
+      </Unknown>
+    }
+  />
+  <Breakdown
+    days={0}
+    hrs="05"
+    mins="00"
+    secs="00"
+  />
+</React.Fragment>
+`;
+
+exports[`components:App renders <App/> correctly right after CODE_CUTOFF 1`] = `
+<React.Fragment>
+  <Message
+    message={
+      <Unknown>
+        <Unknown>
+          Less than
+           
+          <StyledHighlight>
+            3 hours
+          </StyledHighlight>
+           
+          to
+           
+          <StyledHighlight>
+            the Trade Fair!
+          </StyledHighlight>
+        </Unknown>
+        <StyledLocation>
+          1:30 PM, Te Aro Room, Mac's on the Waterfront
+        </StyledLocation>
+        <StyledLocation>
+          NOTE: Macs Brewery is open for project set up
+        </StyledLocation>
+        <Now>
+          <StyledHighlight>
+            Take a breather
+          </StyledHighlight>
+        </Now>
+      </Unknown>
+    }
+  />
+  <Breakdown
+    days={0}
+    hrs="02"
+    mins="25"
+    secs="00"
+  />
+</React.Fragment>
+`;
+
+exports[`components:App renders <App/> correctly right after ID_BREAKFAST_ENDS 1`] = `
+<React.Fragment>
+  <Message
+    message={
+      <Unknown>
+        <Unknown>
+          Less than
+           
+          <StyledHighlight>
+            3 hours
+          </StyledHighlight>
+           
+          to
+           
+          <StyledHighlight>
+            Code Cutoff!
+          </StyledHighlight>
+        </Unknown>
+        <p>
+          Finish up!
+        </p>
+      </Unknown>
+    }
+  />
+  <Breakdown
+    days={0}
+    hrs="02"
+    mins="55"
+    secs="00"
+  />
+</React.Fragment>
+`;
+
+exports[`components:App renders <App/> correctly right after ID_DINNER_ENDS 1`] = `
+<React.Fragment>
+  <Message
+    message={
+      <Unknown>
+        <Unknown>
+          Less than
+           
+          <StyledHighlight>
+            5 hours
+          </StyledHighlight>
+           
+          to
+           
+          <StyledHighlight>
+            Midnight Hot Chocolate!
+          </StyledHighlight>
+        </Unknown>
+        <StyledLocation>
+          At Midnight in LG.P1.20
+        </StyledLocation>
+        <Now>
+          Chill out time in LG.P1.20
+        </Now>
+        <StyledSubTimer>
+          <StyledHighlight>
+            Code Cutoff in
+             
+            <Breakdown
+              days={0}
+              hrs="15"
+              mins="55"
+              secs="00"
+              unstyled={true}
+            />
+          </StyledHighlight>
+        </StyledSubTimer>
+      </Unknown>
+    }
+  />
+  <Breakdown
+    days={0}
+    hrs="04"
+    mins="55"
+    secs="00"
+  />
+</React.Fragment>
+`;
+
+exports[`components:App renders <App/> correctly right after ID_HOT_CHOCOLATE_ENDS 1`] = `
+<React.Fragment>
+  <Message
+    message={
+      <Unknown>
+        <Unknown>
+          Less than
+           
+          <StyledHighlight>
+            7 hours
+          </StyledHighlight>
+           
+          to
+           
+          <StyledHighlight>
+            Breakfast
+          </StyledHighlight>
+        </Unknown>
+        <StyledLocation>
+          Pastries at 7:30 AM on Coop levels 1, 9, and 14
+        </StyledLocation>
+        <Now>
+          Chill out time in LG.P1.20
+        </Now>
+        <StyledSubTimer>
+          <StyledHighlight>
+            Code Cutoff in
+             
+            <Breakdown
+              days={0}
+              hrs="10"
+              mins="25"
+              secs="00"
+              unstyled={true}
+            />
+          </StyledHighlight>
+        </StyledSubTimer>
+      </Unknown>
+    }
+  />
+  <Breakdown
+    days={0}
+    hrs="06"
+    mins="55"
+    secs="00"
+  />
+</React.Fragment>
+`;
+
+exports[`components:App renders <App/> correctly right after ID_LUNCH_ENDS 1`] = `
+<React.Fragment>
+  <Message
+    message={
+      <Unknown>
+        <Unknown>
+          Less than
+           
+          <StyledHighlight>
+            6 hours
+          </StyledHighlight>
+           
+          to
+           
+          <StyledHighlight>
+            Digital Dinner
+          </StyledHighlight>
+        </Unknown>
+        <StyledLocation>
+          At 6:30 PM in the Coop House Atria Café
+        </StyledLocation>
+        <Now>
+          Work on your Innovation Day project!
+        </Now>
+        <StyledSubTimer>
+          <StyledHighlight>
+            Code Cutoff in
+             
+            <Breakdown
+              days={0}
+              hrs="21"
+              mins="55"
+              secs="00"
+              unstyled={true}
+            />
+          </StyledHighlight>
+        </StyledSubTimer>
+      </Unknown>
+    }
+  />
+  <Breakdown
+    days={0}
+    hrs="05"
+    mins="25"
+    secs="00"
+  />
+</React.Fragment>
+`;
+
+exports[`components:App renders <App/> correctly right after INNOVATION_DAY_BEGINS 1`] = `
+<React.Fragment>
+  <Message
+    message={
+      <Unknown>
+        <Unknown>
+          Less than
+           
+          <StyledHighlight>
+            86 minutes
+          </StyledHighlight>
+           
+          to
+           
+          <StyledHighlight>
+            Eat My Lunch!
+          </StyledHighlight>
+        </Unknown>
+        <StyledLocation>
+          12:30 PM on Coop levels 1, 9, and 14
+        </StyledLocation>
+        <Now>
+          Work on your Innovation Day project!
+        </Now>
+        <StyledSubTimer>
+          <StyledHighlight>
+            Code Cutoff in
+             
+            <Breakdown
+              days={0}
+              hrs="23"
+              mins="55"
+              secs="00"
+              unstyled={true}
+            />
+          </StyledHighlight>
+        </StyledSubTimer>
+      </Unknown>
+    }
+  />
+  <Breakdown
+    days={0}
+    hrs="01"
+    mins="25"
+    secs="00"
+  />
+</React.Fragment>
+`;

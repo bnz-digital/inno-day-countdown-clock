@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components:styled:Highlight renders <StyledHighlight/> correctly 1`] = `
+.c0 {
+  color: #FAA61B;
+}
+
+<span
+  className="c0"
+/>
+`;

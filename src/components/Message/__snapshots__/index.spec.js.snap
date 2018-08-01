@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components:Message renders <Message/> correctly with component message 1`] = `
+<StyledMain>
+  <StyledMessage>
+    <p>
+      hello
+    </p>
+  </StyledMessage>
+</StyledMain>
+`;
+
+exports[`components:Message renders <Message/> correctly with string message 1`] = `
+<StyledMain>
+  <StyledMessage>
+    howdy
+  </StyledMessage>
+</StyledMain>
+`;
+
+exports[`components:Message renders <Message/> correctly without message 1`] = `""`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components:styled:Main renders <StyledMain/> correctly 1`] = `
+.c0 {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-areas: "message";
+  grid-template-rows: 1fr;
+}
+
+<main
+  className="c0"
+/>
+`;

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components:Message:styled renders <StyledMessage/> correctly 1`] = `
+.c0 {
+  font-size: 4vw;
+  grid-area: message;
+  place-self: center;
+  padding-top: 10vh;
+}
+
+<div
+  className="c0"
+/>
+`;

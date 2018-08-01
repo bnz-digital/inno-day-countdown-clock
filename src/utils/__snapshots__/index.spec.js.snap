@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`utils getCountdown outputs the correct countdown 1`] = `undefined`;
+
+exports[`utils getSubTimer outputs the correct countdown 1`] = `undefined`;

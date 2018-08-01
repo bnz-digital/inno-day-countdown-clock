@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components:Breakdown renders <Breakdown/> correctly with days 1`] = `
+<StyledBreakdown>
+  5:13:05:51
+</StyledBreakdown>
+`;
+
+exports[`components:Breakdown renders <Breakdown/> correctly without days 1`] = `
+<StyledBreakdown>
+  13:05:51
+</StyledBreakdown>
+`;
+
+exports[`components:Breakdown renders <Breakdown/> correctly without styling 1`] = `
+<span>
+  13:05:51
+</span>
+`;
